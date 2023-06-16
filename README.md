@@ -6,6 +6,9 @@ A webscraper for the [official Yu-Gi-Oh<sup>TM</sup> database](db.yugioh-card.co
 
 [공식 유희왕<sup>TM</sup> 데이터베이스](db.yugioh-card.com)용 웹 스크래퍼
 ### Usage
+PotOfGreed uses selenium, be sure to install a compatible webdriver first. (This script uses geckodriver.)
+
+Selenium을 활용하고 있기 때문에 웹 드라이버 설치가 필요합니다. (본 스크립트는 geckodriver를 이용합니다.)
 ```
 pip install -r requirements.txt
 python3 potofgreed.py
